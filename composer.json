@@ -1,5 +1,15 @@
 {
     "name": "stevens/core",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/StevenStarz/payment"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/StevenStarz/schedule"
+        }
+    ],
     "description": "This is my first library",
     "type": "library",
     "authors": [
@@ -10,8 +20,6 @@
     ],
     "license": "proprietary",
     "require": {
-        "php": ">=5.6.4",
-        "stevens/payment": "*",
-        "stevens/schedule": "*"
+        "php": ">=5.6.4"
     }
 }
