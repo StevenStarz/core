@@ -1,5 +1,6 @@
 {
     "name": "steven/schedule",
+    "type": "library",
     "authors": [
         {
             "name": "Steven",

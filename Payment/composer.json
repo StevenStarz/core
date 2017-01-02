@@ -1,5 +1,6 @@
 {
     "name": "steven/payment",
+    "type": "library",
     "authors": [
         {
             "name": "Steven",
