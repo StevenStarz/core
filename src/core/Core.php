@@ -2,7 +2,7 @@
 
 namespace Core;
 
-class Foo
+class Core
 {
     public static function bar()
     {

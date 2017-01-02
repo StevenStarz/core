@@ -1,5 +1,5 @@
 {
-    "name": "steven/learn",
+    "name": "steven/core",
     "description": "This is my first library",
     "type": "library",
     "authors": [
@@ -8,9 +8,8 @@
             "email": "stevensoh31@gmail.com"
         }
     ],
-    "minimum-stability": "stable",  
     "license": "proprietary",
     "require": {
         "php": ">=5.6.4"
-    }
+    },
 }
