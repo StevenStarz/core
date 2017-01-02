@@ -11,7 +11,7 @@
     "license": "proprietary",
     "require": {
         "php": ">=5.6.4",
-        "stevens/payment": "dev-master",
-        "stevens/schedule": "dev-master"
+        "stevens/payment": "*",
+        "stevens/schedule": "*"
     }
 }
