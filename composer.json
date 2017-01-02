@@ -1,5 +1,5 @@
 {
-    "name": "stevens/learn",
+    "name": "steven/learn",
     "description": "This is my first library",
     "type": "library",
     "authors": [
@@ -8,5 +8,6 @@
             "email": "stevensoh31@gmail.com"
         }
     ],
+    "minimum-stability": "dev",
     "require": {}
 }
