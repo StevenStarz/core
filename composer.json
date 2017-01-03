@@ -14,7 +14,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Stevens\\": "src/"
+            "Stevens\\Core\\": "src/"
         }
     }
 }

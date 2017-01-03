@@ -1,6 +1,6 @@
 <?php
 
-use Stevens\Core;
+use Stevens\Core\Core;
 
 require '../vendor/autoload.php';
 
