@@ -14,9 +14,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Core\\": "src/core/",
-            "Payment\\": "src/payment/",
-            "Schedule\\": "src/schedule/"
+            "Stevens\\": "src/"
         }
     }
 }

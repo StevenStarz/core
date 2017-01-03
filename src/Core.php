@@ -1,6 +1,6 @@
 <?php
 
-namespace Core;
+namespace Stevens;
 
 class Core
 {
