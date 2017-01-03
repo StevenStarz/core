@@ -4,8 +4,10 @@ namespace Core;
 
 class Core
 {
-    public static function bar()
+    protected static $counter = 0;
+
+    public static function getCounter()
     {
-        return 'baz';
+        return static::$counter;
     }
 }

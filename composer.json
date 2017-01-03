@@ -8,13 +8,15 @@
             "email": "stevensoh31@gmail.com"
         }
     ],
-    "license": "proprietary",
+    "license": "MIT",
     "require": {
         "php": ">=5.6.4"
     },
     "autoload": {
         "psr-4": {
-          "Core\\": "src/Core/"
+            "Core\\": "src/core/",
+            "Payment\\": "src/payment/",
+            "Schedule\\": "src/schedule/"
         }
     }
 }
