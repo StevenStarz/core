@@ -4,10 +4,15 @@ namespace Stevens\Core;
 
 class Core
 {
-    protected static $counter = 0;
-
-    public static function getCounter()
+    public static function getPayment()
     {
-        return static::$counter;
+	  	$payment = config('config.payment');
+        return $payment::getCounter();
+    }
+
+    public static function getSchedule()
+    {
+	  	$schedule = config('config.schedule');
+        return $schedule::getCounter();
     }
 }
