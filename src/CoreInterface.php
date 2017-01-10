@@ -4,5 +4,5 @@ namespace Stevens\Core;
 
 interface CoreInterface
 {
-	public function getCounter();
+	public static function getCounter();
 }
