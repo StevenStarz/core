@@ -1,10 +1,10 @@
 <?php
 
-namespace Core\Src\Models\Department;
+namespace Models\Department;
 
-use Core\Src\Models\Department\Provider;
-use Core\Src\Models\Department\User;
-use Core\Src\Models\Requisition\Applicant;
+use Models\Department\Provider;
+use Models\Department\User;
+use Models\Requisition\Applicant;
 use Illuminate\Database\Eloquent\Model;
 
 class Member extends Model

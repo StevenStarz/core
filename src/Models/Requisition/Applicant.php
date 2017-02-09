@@ -1,10 +1,10 @@
 <?php
 
-namespace Core\Src\Models\Requisition;
+namespace Models\Requisition;
 
-use Core\Src\Models\Department\Member;
-use Core\Src\Models\Requisition\Application;
-use Core\Src\Models\Requisition\Tender;
+use Models\Department\Member;
+use Models\Requisition\Application;
+use Models\Requisition\Tender;
 use Illuminate\Database\Eloquent\Model;
 
 class Applicant extends Model

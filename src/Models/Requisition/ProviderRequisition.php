@@ -1,9 +1,9 @@
 <?php
 
-namespace Core\Src\Models\Requisition;
+namespace Models\Requisition;
 
-use Core\Src\Models\Department\Provider;
-use Core\Src\Models\Requisition\Requisition;
+use Models\Department\Provider;
+use Models\Requisition\Requisition;
 use Illuminate\Database\Eloquent\Model;
 
 class ProviderRequisition extends Model

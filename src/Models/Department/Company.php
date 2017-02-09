@@ -1,10 +1,10 @@
 <?php
 
-namespace Core\Src\Models\Department;
+namespace Models\Department;
 
-use Core\Src\Models\Department\Branch;
-use Core\Src\Models\Department\Provider;
-use Core\Src\Models\Requisition\Requisition;
+use Models\Department\Branch;
+use Models\Department\Provider;
+use Models\Requisition\Requisition;
 use Illuminate\Database\Eloquent\Model;
 
 class Company extends Model

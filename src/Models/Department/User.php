@@ -1,9 +1,9 @@
 <?php
 
-namespace Core\Src\Models\Department;
+namespace Models\Department;
 
-use Core\Src\Models\Department\Member;
-use Core\Src\Models\Department\Provider;
+use Models\Department\Member;
+use Models\Department\Provider;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
 

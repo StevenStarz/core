@@ -1,9 +1,9 @@
 <?php
 
-namespace Core\Src\Models\Department;
+namespace Models\Department;
 
-use Core\Src\Models\Department\Company;
-use Core\Src\Models\Requisition\Requisition;
+use Models\Department\Company;
+use Models\Requisition\Requisition;
 use Illuminate\Database\Eloquent\Model;
 
 class Branch extends Model

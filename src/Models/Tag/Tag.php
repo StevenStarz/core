@@ -1,9 +1,9 @@
 <?php
 
-namespace Core\Src\Models\Tag;
+namespace Models\Tag;
 
-use Core\Src\Models\Requisition\Requisition;
-use Core\Src\Models\Requisition\Tender;
+use Models\Requisition\Requisition;
+use Models\Requisition\Tender;
 use Illuminate\Database\Eloquent\Model;
 
 class Tag extends Model

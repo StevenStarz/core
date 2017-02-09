@@ -1,8 +1,8 @@
 <?php
 
-namespace Core\Src\Models\Requisition;
+namespace Models\Requisition;
 
-use Core\Src\Models\Requisition\Requisition;
+use Models\Requisition\Requisition;
 use Illuminate\Database\Eloquent\Model;
 
 class Application extends Model

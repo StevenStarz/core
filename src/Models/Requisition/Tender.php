@@ -1,11 +1,11 @@
 <?php
 
-namespace Core\Src\Models\Requisition;
+namespace Models\Requisition;
 
-use Core\Src\Models\Department\Provider;
-use Core\Src\Models\Requisition\Applicant;
-use Core\Src\Models\Requisition\Requisition;
-use Core\Src\Models\Tag\Tag;
+use Models\Department\Provider;
+use Models\Requisition\Applicant;
+use Models\Requisition\Requisition;
+use Models\Tag\Tag;
 use Illuminate\Database\Eloquent\Model;
 
 class Tender extends Model

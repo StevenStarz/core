@@ -1,13 +1,13 @@
 <?php
 
-namespace Core\Src\Models\Requisition;
+namespace Models\Requisition;
 
-use Core\Src\Models\Department\Branch;
-use Core\Src\Models\Department\Company;
-use Core\Src\Models\Requisition\Application;
-use Core\Src\Models\Requisition\ProviderRequisition;
-use Core\Src\Models\Requisition\Tender;
-use Core\Src\Models\Tag\Tag;
+use Models\Department\Branch;
+use Models\Department\Company;
+use Models\Requisition\Application;
+use Models\Requisition\ProviderRequisition;
+use Models\Requisition\Tender;
+use Models\Tag\Tag;
 use Illuminate\Database\Eloquent\Model;
 
 class Requisition extends Model

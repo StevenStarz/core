@@ -1,12 +1,12 @@
 <?php
 
-namespace Core\Src\Models\Department;
+namespace Models\Department;
 
-use Core\Src\Models\Department\Company;
-use Core\Src\Models\Department\Member;
-use Core\Src\Models\Department\User;
-use Core\Src\Models\Requisition\ProviderRequisition;
-use Core\Src\Models\Requisition\Tender;
+use Models\Department\Company;
+use Models\Department\Member;
+use Models\Department\User;
+use Models\Requisition\ProviderRequisition;
+use Models\Requisition\Tender;
 use Illuminate\Database\Eloquent\Model;
 
 class Provider extends Model
