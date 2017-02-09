@@ -14,7 +14,10 @@
     },
     "autoload": {
         "psr-4": {
-            "Stevens\\Core\\": "src/"
+            "Stevens\\Core\\": "src/",
+            "Models\\Department\\": "src/models/department/",
+            "Models\\Requisition\\": "src/models/requisition/",
+            "Models\\Tag\\": "src/models/tag/"
         }
     }
 }
