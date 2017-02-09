@@ -14,8 +14,12 @@ class CoreServiceProvider extends ServiceProvider
     public function boot()
     {
         $this->publishes([
-            __DIR__.'\CoreConfig.php' => config_path('core_config.php'),
-        ]);
+            __DIR__.'\CoreConfig.php' => config_path('core_config.php')
+        ], "config");
+        
+        $this->publishes([
+            __DIR__.'/Migrations/' => database_path('migrations')
+        ], "migrations");
     }
 
     /**
